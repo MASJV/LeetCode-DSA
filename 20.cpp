@@ -17,7 +17,6 @@ public:
                     st.pop();
                 }
                 else{
-                    cout<<"hi"<<endl;
                     return false;
                 }
             }
