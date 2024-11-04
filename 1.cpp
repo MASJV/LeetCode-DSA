@@ -10,6 +10,7 @@ public:
         
         for(int i=0; i<nums.size(); i++){
             int digit = target - nums[i];
+            
             if(freq.find(digit) != freq.end()){
                 if(i != freq[digit]){
                     pair.push_back(i);
