@@ -5,7 +5,7 @@ public:
         vector<int> pair;
 
         for(int i = 0; i < nums.size(); i++){
-            freq[nums[i]] = i;
+            freq[nums[i]] = i
         }
         
         for(int i=0; i<nums.size(); i++){
