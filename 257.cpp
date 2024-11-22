@@ -39,7 +39,6 @@ public:
         }
 
         else{
-            
             if(root->left != NULL){
                 binaryTreePathshelper(root->left, paths, output);
             }
